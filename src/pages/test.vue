@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Version: 2.0.1.003
+ * @Author: 薛松田
+ * @Date: 2019-10-15 09:54:44
+ * @LastEditors: 薛松田
+ * @LastEditTime: 2019-10-15 09:54:44
+ -->
 <template>
   <div style="position:relative">
     <!-- <van-nav-bar title="一月康旅卡" left-arrow @click-left="onClickLeft" style="background-color:#ededed"/> -->
@@ -47,8 +55,8 @@ import { Sku } from 'vant';
 Vue.use(Sku);
 import { Toast } from 'vant';
 import Vue from 'vue'
- import global_ from './global'//引用文件
-    Vue.prototype.GLOBAL = global_//挂载到Vue实例上面
+/*  import global_ from './global'//引用文件
+    Vue.prototype.GLOBAL = global_//挂载到Vue实例上面 */
 export default {
   data(){
     return{

@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Version: 2.0.1.003
+ * @Author: 薛松田
+ * @Date: 2019-10-15 09:54:43
+ * @LastEditors: 薛松田
+ * @LastEditTime: 2019-10-15 09:54:43
+ */
 import Vue from 'vue'
 import App from './App'
 import router from './router'
@@ -28,8 +36,8 @@ if(location.href.indexOf('192.168') > 0) {
 }
 
 
-import global_ from './pages/global.vue'//引用文件
-Vue.prototype.GLOBAL = global_//挂载到Vue实例上面
+/* import global_ from './pages/global.vue'//引用文件
+Vue.prototype.GLOBAL = global_//挂载到Vue实例上面 */
 
 
 // 全局引入公共js
